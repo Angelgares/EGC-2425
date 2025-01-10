@@ -36,7 +36,7 @@ class Config:
 
 
 class DevelopmentConfig(Config):
-    DEBUG = True
+    DEBUG = False
 
 
 class TestingConfig(Config):
